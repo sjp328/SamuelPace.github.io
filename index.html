@@ -25,9 +25,7 @@
             line-height: 1.6;
         }
 
-        /* =========================
-           NAVIGATION
-        ========================== */
+        /* NAVIGATION */
 
         nav {
             height: 82px;
@@ -80,9 +78,7 @@
         }
 
 
-        /* =========================
-           HERO / ABOUT
-        ========================== */
+        /* HERO */
 
         .hero {
             min-height: 580px;
@@ -96,11 +92,9 @@
             width: 100%;
             max-width: 1200px;
             margin: auto;
-
             display: grid;
             grid-template-columns: 320px 1fr;
             gap: 70px;
-
             align-items: center;
         }
 
@@ -114,16 +108,11 @@
         .profile-photo {
             width: 190px;
             height: 190px;
-
             border-radius: 50%;
             object-fit: cover;
             object-position: center 25%;
-
             border: 5px solid white;
-
-            box-shadow:
-                0 8px 20px rgba(0, 0, 0, 0.12);
-
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
             margin-bottom: 20px;
         }
 
@@ -154,16 +143,12 @@
 
         .badge {
             display: inline-block;
-
             background-color: #fde8ec;
             color: #a6192e;
-
             padding: 6px 15px;
             border-radius: 20px;
-
             font-size: 13px;
             font-weight: 700;
-
             margin-bottom: 24px;
         }
 
@@ -171,18 +156,14 @@
             font-size: 49px;
             line-height: 1.05;
             letter-spacing: -1.5px;
-
             max-width: 800px;
-
             margin-bottom: 22px;
         }
 
         .personal-statement {
             font-size: 19px;
             color: #6b7280;
-
             max-width: 800px;
-
             margin-bottom: 30px;
         }
 
@@ -194,20 +175,14 @@
 
         .email-button {
             display: inline-block;
-
             background: white;
             color: #111827;
-
             border: 1px solid #e5e7eb;
-
             padding: 12px 23px;
             border-radius: 25px;
-
             text-decoration: none;
             font-weight: 600;
-
-            box-shadow:
-                0 2px 6px rgba(0, 0, 0, 0.04);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
         }
 
         .email-button:hover {
@@ -225,9 +200,7 @@
         }
 
 
-        /* =========================
-           PROJECTS
-        ========================== */
+        /* PROJECTS */
 
         .projects {
             padding: 80px 10%;
@@ -256,34 +229,25 @@
 
         .project-card {
             background: white;
-
             border: 1px solid #e5e7eb;
             border-radius: 18px;
-
             padding: 30px;
-
             transition: 0.25s ease;
         }
 
         .project-card:hover {
             transform: translateY(-5px);
-
-            box-shadow:
-                0 12px 30px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
         }
 
         .project-label {
             display: inline-block;
-
             background-color: #fde8ec;
             color: #a6192e;
-
             padding: 5px 12px;
             border-radius: 20px;
-
             font-size: 12px;
             font-weight: 700;
-
             margin-bottom: 18px;
         }
 
@@ -309,9 +273,7 @@
         }
 
 
-        /* =========================
-           SKILLS
-        ========================== */
+        /* SKILLS */
 
         .skills {
             background-color: #f8f9fb;
@@ -327,26 +289,20 @@
             display: flex;
             flex-wrap: wrap;
             gap: 12px;
-
             margin-top: 30px;
         }
 
         .skill {
             background: white;
-
             border: 1px solid #e5e7eb;
-
             padding: 10px 17px;
             border-radius: 25px;
-
             font-size: 14px;
             font-weight: 600;
         }
 
 
-        /* =========================
-           CONTACT
-        ========================== */
+        /* CONTACT */
 
         .contact {
             text-align: center;
@@ -371,25 +327,18 @@
         }
 
 
-        /* =========================
-           FOOTER
-        ========================== */
+        /* FOOTER */
 
         footer {
             text-align: center;
-
             padding: 25px;
-
             border-top: 1px solid #e5e7eb;
-
             color: #6b7280;
             font-size: 13px;
         }
 
 
-        /* =========================
-           MOBILE
-        ========================== */
+        /* MOBILE */
 
         @media (max-width: 850px) {
 
@@ -437,46 +386,28 @@
 <body>
 
 
-<!-- =========================
-     NAVIGATION
-========================== -->
+<!-- NAVIGATION -->
 
 <nav>
 
     <div class="logo">
-
-        <span class="rbs">
-            RBS
-        </span>
-
-        <span>
-            Samuel's Portfolio
-        </span>
-
+        <span class="rbs">RBS</span>
+        <span>Samuel's Portfolio</span>
     </div>
-
 
     <div class="nav-links">
 
-        <a href="#about">
-            About
-        </a>
+        <a href="#about">About</a>
 
-        <a href="#projects">
-            Projects
-        </a>
+        <a href="#projects">Projects</a>
 
-        <a href="#skills">
-            Skills
-        </a>
+        <a href="#skills">Skills</a>
 
         <a
             href="resume.pdf"
             target="_blank"
             class="resume-button">
-
             Download Resume
-
         </a>
 
     </div>
@@ -485,18 +416,12 @@
 
 
 
-<!-- =========================
-     HERO / ABOUT
-========================== -->
+<!-- HERO / ABOUT -->
 
-<section
-    class="hero"
-    id="about">
+<section class="hero" id="about">
 
     <div class="hero-container">
 
-
-        <!-- PROFILE -->
 
         <div class="profile">
 
@@ -505,9 +430,7 @@
                 alt="Samuel Pace"
                 class="profile-photo">
 
-            <h2>
-                Samuel Pace
-            </h2>
+            <h2>Samuel Pace</h2>
 
             <div class="school">
                 Rutgers Business School
@@ -525,47 +448,35 @@
 
 
 
-        <!-- INTRODUCTION -->
-
         <div class="hero-content">
 
             <span class="badge">
                 Supply Chain Management
             </span>
 
-
             <h1>
                 Building smarter supply chains through data, strategy, and leadership.
             </h1>
 
-
             <p class="personal-statement">
-
                 I am a Supply Chain Management student at Rutgers Business School
                 focused on leveraging data, strategic sourcing, and operational
                 thinking to build more efficient and effective supply chains.
-
             </p>
-
 
             <div class="hero-buttons">
 
                 <a
                     href="mailto:Space0042@gmail.com"
                     class="email-button">
-
                     Email Me
-
                 </a>
-
 
                 <a
                     href="https://www.linkedin.com/in/pacesamuel/"
                     target="_blank"
                     class="linkedin">
-
                     LinkedIn Profile →
-
                 </a>
 
             </div>
@@ -578,104 +489,25 @@
 
 
 
-<!-- =========================
-     PROJECTS
-========================== -->
+<!-- PROJECTS -->
 
-<section
-    class="projects"
-    id="projects">
-
+<section class="projects" id="projects">
 
     <h2 class="section-title">
-
         Supply Chain, Finance & Leadership: My Work
-
     </h2>
 
-
     <p class="section-description">
-
         Selected projects and experiences demonstrating my analytical approach,
         strategic thinking, leadership, and ability to apply business concepts
         to real-world challenges.
-
     </p>
-
 
 
     <div class="project-grid">
 
 
-        <!-- ALPFA FUND -->
-
-        <div class="project-card">
-
-            <span class="project-label">
-                Finance & Strategy
-            </span>
-
-
-            <h3>
-                ALPFA Fund
-            </h3>
-
-
-            <p>
-
-                As a member of ALPFA Rutgers' Finance Committee, I contributed
-                to the creation and development of ALPFA Fund, a $10,000
-                student-managed, long-only investment fund designed to generate
-                returns supporting student scholarships. My work included
-                researching investment opportunities, evaluating financial
-                metrics and risk, and contributing to the fund's investment
-                strategy.
-
-            </p>
-
-
-            <a
-                href="https://www.business.rutgers.edu/news/competition-offers-students-chance-demonstrate-impact-experiential-learning"
-                target="_blank"
-                class="project-link">
-
-                Read About ALPFA Fund →
-
-            </a>
-
-        </div>
-
-
-
-        <!-- EXPERIENTIAL LEARNING SHOWCASE -->
-
-        <div class="project-card">
-
-            <span class="project-label">
-                Experiential Learning
-            </span>
-
-
-            <h3>
-                RBS Experiential Learning Showcase
-            </h3>
-
-
-            <p>
-
-                Served as project lead for a four-member team showcasing
-                ALPFA Fund's investment strategy and portfolio results.
-                Applied risk-return analysis, equity valuation, and ETF
-                diversification while presenting data-driven insights that
-                contributed to the project securing $7,000 in funding.
-
-            </p>
-
-        </div>
-
-
-
-        <!-- SUPPLY CHAIN EXPERIENCE -->
+        <!-- PROJECT 1: PURCHASING & RECEIVING -->
 
         <div class="project-card">
 
@@ -683,21 +515,82 @@
                 Supply Chain Operations
             </span>
 
-
             <h3>
-                Purchasing & Inventory Operations
+                Purchasing & Receiving Operations Internship
             </h3>
 
+            <p>
+                Gained hands-on supply chain experience with Homeplate Catering
+                and Hospitality by tracking more than $25,000 in inventory
+                across 500+ SKUs. Coordinated with 10+ vendors weekly to receive,
+                verify, and distribute inventory while supporting inventory
+                reconciliation across six concession locations using Excel and
+                operational data.
+            </p>
+
+        </div>
+
+
+
+        <!-- PROJECT 2: ALPFA FUND -->
+
+        <div class="project-card">
+
+            <span class="project-label">
+                Finance & Strategy
+            </span>
+
+            <h3>
+                ALPFA Fund
+            </h3>
 
             <p>
-
-                Applied supply chain principles in a live purchasing and
-                receiving environment by tracking more than $25,000 in
-                inventory across 500+ SKUs. Coordinated with 10+ vendors
-                and supported inventory reconciliation across six
-                concession locations using Excel and operational data.
-
+                As a member of ALPFA Rutgers' Finance Committee, I contributed
+                to the creation and development of ALPFA Fund, a $10,000
+                student-managed, long-only investment fund designed to generate
+                returns supporting student scholarships. My work included
+                researching investment opportunities, evaluating financial
+                metrics and risk, and contributing to the fund's investment
+                strategy.
             </p>
+
+            <a
+                href="ALPFA-Fund.pptx"
+                target="_blank"
+                class="project-link">
+                View ALPFA Fund Presentation →
+            </a>
+
+        </div>
+
+
+
+        <!-- PROJECT 3: RBS SHOWCASE -->
+
+        <div class="project-card">
+
+            <span class="project-label">
+                Experiential Learning
+            </span>
+
+            <h3>
+                RBS Experiential Learning Showcase
+            </h3>
+
+            <p>
+                Served as project lead for a four-member team showcasing
+                ALPFA Fund's investment strategy and portfolio results.
+                Applied risk-return analysis, equity valuation, and ETF
+                diversification while presenting data-driven insights that
+                contributed to the project securing $7,000 in funding.
+            </p>
+
+            <a
+                href="https://www.business.rutgers.edu/news/competition-offers-students-chance-demonstrate-impact-experiential-learning"
+                target="_blank"
+                class="project-link">
+                View Rutgers Business School Feature →
+            </a>
 
         </div>
 
@@ -708,27 +601,19 @@
 
 
 
-<!-- =========================
-     SKILLS
-========================== -->
+<!-- SKILLS -->
 
-<section
-    class="skills"
-    id="skills">
+<section class="skills" id="skills">
 
     <div class="skills-container">
-
 
         <h2 class="section-title">
             Skills
         </h2>
 
-
         <p class="section-description">
-
             Technical and professional skills developed through coursework,
             professional experience, leadership, and experiential learning.
-
         </p>
 
 
@@ -790,9 +675,7 @@
 
 
 
-<!-- =========================
-     CONTACT
-========================== -->
+<!-- CONTACT -->
 
 <section class="contact">
 
@@ -800,33 +683,24 @@
         Let's Connect
     </h2>
 
-
     <p>
-
         Interested in connecting about supply chain,
         procurement, operations, or professional opportunities?
-
     </p>
-
 
     <div class="contact-buttons">
 
         <a
             href="mailto:Space0042@gmail.com"
             class="email-button">
-
             Email Me
-
         </a>
-
 
         <a
             href="https://www.linkedin.com/in/pacesamuel/"
             target="_blank"
             class="linkedin">
-
             Connect on LinkedIn →
-
         </a>
 
     </div>
@@ -835,14 +709,10 @@
 
 
 
-<!-- =========================
-     FOOTER
-========================== -->
+<!-- FOOTER -->
 
 <footer>
-
     © 2026 Samuel Pace • Rutgers Business School
-
 </footer>
 
 
